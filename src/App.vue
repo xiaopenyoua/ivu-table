@@ -24,9 +24,11 @@
     a {
         font-weight: bold;
         color: #2c3e50;
+        display: inline-block;
 
         &.router-link-exact-active {
             color: #42b983;
+            border-bottom: 1px solid #42b983;
         }
     }
 }
